@@ -1,0 +1,42 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #000;
+}
+
+form {
+          width: 364px;
+          display: flex;
+          flex-direction: column;
+          gap: 0.8rem;
+}
+form input,
+a {
+          padding: 0.6rem;
+          border: 1px solid #CA3216;
+          border-radius: 0px;
+          outline: none;
+          font-size: 1rem;
+          color: #FFF;
+          text-decoration: none;
+          background: #000;
+}
+a {
+          text-align: center;
+          background-color: #CA3216;
+}
+form img {
+          display: none;
+          height: 200px;
+          object-fit: cover;
+          background: #111;
+}
